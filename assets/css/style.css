@@ -1,0 +1,47 @@
+
+body * {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.imagen-viajes {
+max-width: 2.5%!important;
+
+}
+
+.imagen-viajes .texto-viajes {
+  display:block;
+}
+
+.texto-viajes p {
+  margin-left: 10px;
+  margin-bottom: -1px;
+  color: white;
+}
+
+.navbar-nav {
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+#contacto {
+    scroll-behavior: smooth;
+  }
+
+  .fondo{
+    background-color: #1798c1!important;
+}
+
+  .imagen1 {
+    background-image: url('../img/fondo2.jpeg');
+
+  }
+
+  .my-navbar {
+    border: 0;
+    border-radius: 0;
+  }
