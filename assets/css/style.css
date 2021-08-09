@@ -32,16 +32,11 @@ max-width: 2.5%!important;
     scroll-behavior: smooth;
   }
 
-  .fondo{
-    background-color: #1798c1!important;
+  .fondo {
+    background-color:rgba(0, 0, 0, 0) !important;
 }
 
-  .imagen1 {
-    background-image: url('../img/fondo2.jpeg');
-
-  }
-
-  .my-navbar {
-    border: 0;
-    border-radius: 0;
+    
+  .quienessomos {
+    background-color: black;
   }

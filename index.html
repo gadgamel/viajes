@@ -17,10 +17,14 @@
 	<!-- Boostrap 4.6.0-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
-<header>
-<nav class="navbar navbar-expand-lg navbar-dark pr-5 bg-dark">
+<body>
+<!--<header>     <!-- CREACION DEL NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark pr-5 fondo ">
+        
 	<img class="imagen-viajes" src="assets/img/viajes.svg" alt="logo" class="logo-viajes">  
-	 <div class="texto-viajes">
+	<div class="containter" 
+    <div class="texto-viajes">
 		 <p>Viajes Chile</p>
 	 </div>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +39,11 @@
 		   </div>
 	  </div>
 	</div>
+</div> 
   </nav>
+
+<!--</header>-->  
+  <!-- CREACION DEL CARRUSEL -->
   <div
       id="carouselExampleControls"
       class="carousel slide"
@@ -83,7 +91,43 @@
         <span class="sr-only">Next</span>
       </a>
 	  </div>
-	</div>
+ 
+      <!-- CREACION LINEA QUIENES SOMOS -->
+    <section class="abts">
+        <h1 id="quienessomos">Quenes somos?</h1>
+        <hr class=linea>
+    </section>
+    <!--QUIENES SOMOS-->
+    <div class="container hidden-xs d-none d-md-block">
+        <div class="row pt-5">
+            <div class="col">
+                <div class="parrafos">
+                    <section>
+                        <i class="switch fas fa-plane"></i>
+                    </section>
+                    <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi quos deleniti totam, provident aspernatur soluta? Eaque, cumque illo ea aliquid rem soluta excepturi. Deserunt voluptas eveniet blanditiis possimus nemo!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ullam magni, eaque doloribus cum tenetur itaque neque quam aspernatur delectus veritatis fuga praesentium numquam corporis eveniet, nobis, similique quis obcaecati!</p>
+                  </div>
+                </div>
+                  <div class="col">
+                    <div class="parrafos">
+                                    <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi quos deleniti totam, provident aspernatur soluta? Eaque, cumque illo ea aliquid rem soluta excepturi. Deserunt voluptas eveniet blanditiis possimus nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed error, earum ipsum vero nulla minus omnis dolor quibusdam accusamus pariatur ut eum totam impedit consequatur similique dicta? Tenetur, voluptatibus inventore!</p>
+                    <section>
+                        <i class="switch2 fa fa-anchor" aria-hidden="true"></i>
+                    </section>
+                      </div>
+                    </div>
+                      <div class="col">
+                        <div class="parrafos">
+                            <section>
+                                <i class="switch3 fa fa-car" aria-hidden="true"></i>
+                            </section>
+                        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi quos deleniti totam, provident aspernatur soluta? Eaque, cumque illo ea aliquid rem soluta excepturi. Deserunt voluptas eveniet blanditiis possimus nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolores autem vitae voluptas optio dolor dicta itaque sed. Odio non exercitationem illo ipsum aut nihil magni omnis rem natus pariatur.</p>
+                          </div>
+                        </div>
+                    </div>
+        </div>
+         
+    </section>      
   </footer>
   <!-- Jquery 3.3.1 -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
