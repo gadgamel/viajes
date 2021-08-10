@@ -34,7 +34,7 @@ body {
     }
     
     
-    .linea {
+     .linea {
         display: block;
         width: 100%;
         margin-bottom: 1em;
@@ -44,7 +44,7 @@ body {
         border-width: 2px;
         color:  #328998;
         background: #328998;
-    }
+    } 
     
     
     h4 {
@@ -98,4 +98,17 @@ body {
        
         .fondo2{
             background-color: black!important;
+        }
+        
+        footer{
+            background-color: #1798c1;
+            margin-top: 30px;
+
+        }
+        
+        .iconosfooter{
+            font-size: 30px;
+            display: inline-block;
+            margin-left: 10px;
+        
         }
